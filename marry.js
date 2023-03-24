@@ -23,7 +23,7 @@ if (result === "sim") {
     }
 
     function mouseClick(){
-        document.getElementById("frase").innerHTML = "Obrigado por escolher :)"
+        document.getElementById("img").innerHTML = "<img src=\"./monk.jpeg\" width=\"300px\" height=\"100px\">";
     }
 
 } else if (result === "nao") {
@@ -37,8 +37,9 @@ if (result === "sim") {
         b.style.left = i + "px"
         b.style.top = j + "px"
     }
+    
     function mouseClick(){
-        document.getElementById("frase").innerHTML = "Obrigado por escolher :)"
+        document.getElementById("img").innerHTML = "<img src=\"./monk.jpeg\" width=\"300px\" height=\"100px\">";
     }
 
 }else{ 
