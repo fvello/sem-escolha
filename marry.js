@@ -1,4 +1,4 @@
-let question = window.prompt("Digite uma frase para escolher ex: Quer casar comigo?");
+let question = window.prompt("Digite uma pergunta ex: Quer casar comigo?");
 document.getElementById("frase").innerHTML = question;
 
 if(question ===  ""){
@@ -7,7 +7,7 @@ if(question ===  ""){
 }
 
 
-let opt = window.prompt("Escolha um botão para fugir");
+let opt = window.prompt("Escolha um botão para fugir: Sim ou Nao");
 let result = opt.toLowerCase();
 
 if (result === "sim") {
